@@ -1,0 +1,4 @@
+FROM nodejs:alpine
+COPY . /app
+EXPOSE 80
+CMD ["NODE", "index.js"]
